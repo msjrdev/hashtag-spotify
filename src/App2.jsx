@@ -1,6 +1,8 @@
 import React from "react";
 
 const App2 = () => {
+  console.log("Olá, Mundo!");
+
   return <div>App2</div>;
 };
 
@@ -16,6 +18,9 @@ export default App2;
 
 // Nomeação de Variavel, Função...
 // camelCase
+
+// Nomeação de classes
+// kebab-case
 
 // export default, posso importar com qualquer nome e sem chaves
 // export "sem default", só posso importar entre chaves e com o nome exportado
@@ -48,3 +53,42 @@ export default App2;
 // Tag vazia em React se chama Fragment ou Fragmento
 
 // Componentes recebem "props"
+
+{
+  /* {items === 5 ? (
+          <>
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+          </>
+        ) : (
+          <>
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+          </>
+        )} */
+}
+
+// Array(items)
+//           .fill()
+//           .map((currentValue, index) => (
+//             <SingleItem key={`${title}-${index}`} />
+//           ))
+
+// Spread operator
+// ...
+
+// Quando componentes se re-renderizão?
+// Uma das ocasiões é quando uma variável de estado usada por esse componente é atualizada
+
+// Hook - useState
